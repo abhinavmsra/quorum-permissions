@@ -1,0 +1,14 @@
+{
+  "name": "quorum-permissions",
+  "scripts": {
+    "compile": "hardhat compile",
+    "lint": "prettier --write --plugin=prettier-plugin-solidity .",
+    "test": "hardhat test"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.3",
+    "prettier": "^3.2.5",
+    "prettier-plugin-solidity": "^1.3.1"
+  }
+}
